@@ -6,9 +6,9 @@ import "./homepage.css";
 function Homepage() {
   const navigate = useNavigate();
 
-  const handleLogin = () => {
-    navigate("https://ptu.gndecathletix.games/");
-  };
+const handleLogin = () => {
+  window.location.href = "https://ptu.gndecathletix.games/";
+};
 
   const maleTrackEvents = [
     "100m Race",
