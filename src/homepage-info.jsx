@@ -246,7 +246,7 @@ const handleLogin = () => {
       <footer className="footer">
         <div className="footer-content">
           <p>
-            Made by Genconians, with &#x2764;&#xfe0f; &copy;{" "}
+            Made by <a href="https://gndec.ac.in/" style="text-decoration:none;">Genconians</a>, with &#x2764;&#xfe0f; &copy;{" "}
             {new Date().getFullYear()} All rights reserved.
           </p>
           <p>
