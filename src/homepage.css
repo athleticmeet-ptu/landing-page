@@ -252,3 +252,76 @@ body {
 .footer a:hover {
   color: #e74c3c;
 }
+
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .navbar ul {
+    gap: 20px;
+  }
+
+  .event-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .male-events, .female-events {
+    width: 100%;
+  }
+
+  .event-columns {
+    flex-direction: column;
+  }
+
+  .track-events, .field-events {
+    width: 100%;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .hero {
+    height: 60vh;
+  }
+  .header{
+    position:static;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-text {
+    font-size: 24px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .container {
+    width: 95%;
+    margin-top: 90px;
+  }
+
+  .dev-card {
+    width: 80%;
+  }
+
+  .login-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+
+  .rules, .events, .dev-team {
+    padding: 20px;
+  }
+
+  .rules h2, .events h2, .dev-team h2 {
+    font-size: 26px;
+  }
+}
