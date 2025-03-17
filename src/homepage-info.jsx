@@ -105,6 +105,7 @@ const handleLogin = () => {
           <ol>
             <li>All participants must register before the event.</li>
             <li>An athlete can participate in 2 events and one relay.</li>
+            <li>If you fill out the form and only enter the details for Student 1, but not for Student 2, and then submit it, the form will get locked, and you won't be able to add Student 2's entry later.</li>
             <li>
               All colleges must submit the eligibility form and athletics detail
               form before the last date.
